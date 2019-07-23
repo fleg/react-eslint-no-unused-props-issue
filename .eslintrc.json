@@ -1,0 +1,19 @@
+{
+	"env": {
+		"es6": true,
+		"commonjs": true
+	},
+	"parserOptions": {"ecmaVersion": 2018},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	"rules": {
+		"react/no-unused-prop-types": "error"
+	},
+	"settings": {
+		"react": {
+			"version": "16.8"
+		}
+	}
+}
